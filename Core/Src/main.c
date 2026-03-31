@@ -1,20 +1,16 @@
 /* USER CODE BEGIN Header */
-/**
-  ******************************************************************************
-  * @file           : main.c
-  * @brief          : Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * Copyright (c) 2026 STMicroelectronics.
-  * All rights reserved.
-  *
-  * This software is licensed under terms that can be found in the LICENSE file
-  * in the root directory of this software component.
-  * If no LICENSE file comes with this software, it is provided AS-IS.
-  *
-  ******************************************************************************
-  */
+/*
+Лабораторна робота 7. Налагодження середовища розробки для програмування
+32-розрядних мікроконтролерів з використанням операційної системи реального часу. На
+прикладі FreeRTOS. 
+ 
+Підключення:    1.1 GND - [-LED+] - [резистор 325R] - PB15
+   	   	   	   	1.2 GND - [-LED+] - [резистор 325R] - PB14
+   	   	   	   	1.3 GND - [-LED+] - [резистор 325R] - PB13
+
+                2.1 GND - [-Key+] - PA0 (Pull_up)
+
+*/
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
